@@ -31,9 +31,9 @@ public class Deck {
 		}
 	}
 
-	/**
+	/*
 	 * @return the cards
-	 */
+	 
 	public List<Card> getCards() {
 		return cards;
 	}
@@ -41,12 +41,12 @@ public class Deck {
 
 	/**
 	 * @param cards the cards to set
-	 */
+	 
 	public void setCards(List<Card> cards) {
 		this.cards = cards;
 	}
 
-
+*/
 	public void describe()
 	{
 		for (Card card : this.cards) {

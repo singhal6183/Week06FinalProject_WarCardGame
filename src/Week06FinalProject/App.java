@@ -1,4 +1,14 @@
-/*	2.	Create a class called App with a main method.
+/* ---- War Card Game---
+ * Create a new Deck of cards
+ * Shuffle the Deck to randomized the order of cards
+ * Set The players
+ * Deal the cards
+ * Play the game
+ * declare the winner
+ */
+
+
+/*	Create a class called App with a main method.
 
 	a)	Instantiate a Deck and two Players, call the shuffle method on the deck.
 	b)	Using a traditional for loop, iterate 52 times calling the Draw method on the other player each iteration using the Deck you instantiated.
@@ -8,7 +18,9 @@
 	f)	Print the final score of each player and either “Player 1”, “Player 2”, or “Draw” depending on which score is higher or if they are both the same.
  */
 
+
 package Week06FinalProject;
+
 
 public class App {
 		
@@ -44,12 +56,9 @@ public class App {
 				player1.setName("Player1");
 				player2.setName("Player2");
 				
-		// Create a hand for each player
-				//player1.setHand(deck.getCards());
-				//player2.setHand(deck.getCards());
-				
 			
 		// Deal the cards
+	
 				for (int i = 0; i < 52; i++)
 				{
 					if (i % 2 == 0) {
@@ -61,21 +70,27 @@ public class App {
 				}
 				
 				
+		/* prints out information about the cards that the player 
+		    has in their hand
+		*/
+				System.out.println("\n" + player1.getName() + " has these cards in their hand:" + player1.getHand());
+				System.out.println("\n" + player2.getName() + " has these cards in their hand:" + player2.getHand());
+				
+				
 		// Start the round and play the game
 				int round = 1;
 			
-				// Players flip the cards and increment the score
+				// Players play the cards and increment the score
 				for (int i = 0; i < 26; i++) {
 					System.out.println("\n ---- Round " + round + " of 26 ---- ");
 					round++;
 					Card cardOne = player1.flipCard();
 					Card cardTwo = player2.flipCard();
-					//player1.describe2(cardOne);
-					//player2.describe2(cardTwo);
+					
 				
-					System.out.printf(player1.getName() + " flips: ");
+					System.out.printf(player1.getName() + " plays: ");
 					cardOne.describe();
-					System.out.printf(player2.getName() + " flips: ");
+					System.out.printf(player2.getName() + " plays: ");
 					cardTwo.describe();
 				
 					

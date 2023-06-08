@@ -15,7 +15,8 @@ public class Card {
 	//contains a value from 2-14 representing cards 2-Ace
 	int value;
 	
-	public Card(int value, String suit) {		//Creating a method that utilizes switch statements. and linking each case number to a written string.
+	public Card(int value, String suit) {		//Creating a method that utilizes switch statements. 
+		                                    //   and linking each case number to a written string.
 		this.value = value;
 		
 		switch(value) {
@@ -59,16 +60,23 @@ public class Card {
         	name = "Ace";
             break;
 		}
-										// This will add name expression and suit(when passed) with "of" in the middle.
-		name += " of " + suit; 			//suit is being passed in once we create a new card in the deck class and because its looped and all 4 suits will be created for that value.
+									// This will add name expression and suit(when passed) with "of" in the middle.
+		name += " of " + suit; 		//suit is being passed in once we create a new card in the deck class and because its looped and all 4 suits will be created for that value.
 		
 	}
 	
 
 	
-	public void describe() {			//Describe method for printing name of card
-		//System.out.println("Name of card is: " + name);
-		//System.out.println("Card: " + name + " with the value of " + value);
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return name;
+	}
+
+
+
+	public void describe() {  //Describe method for printing name of card
+		
 		System.out.println(name);
 
 	}

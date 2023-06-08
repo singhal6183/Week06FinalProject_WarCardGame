@@ -33,12 +33,12 @@ public class Player {
 
 		// prints out information about the cards
 		// that the player has in their hand
-		public void describe() {
+		/*public void describe() {
 			System.out.println("\nPlayer: " + name + " has these cards in their hand:");
 			for (Card card : this.hand) {
 				card.describe();
 			}
-		}
+		}*/
 		
 		
 		public void draw(Deck deck)
