@@ -1,4 +1,4 @@
-package Week06FinalProject;
+package WarCardGame;
 /*
 1.	Create the Card class:
 2.  Create two Fields:

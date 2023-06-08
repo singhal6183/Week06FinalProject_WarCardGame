@@ -19,7 +19,7 @@
  */
 
 
-package Week06FinalProject;
+package WarCardGame;
 
 
 public class App {

@@ -1,4 +1,4 @@
-package Week06FinalProject;
+package WarCardGame;
 
 import java.util.*;
 
