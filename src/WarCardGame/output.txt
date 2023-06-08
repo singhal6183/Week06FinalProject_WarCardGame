@@ -1,0 +1,26 @@
+ ---- Round 1 of 26 ---- 
+Player1 plays: Eight of Hearts
+Player2 plays: Three of Clubs
+
+Player1 Wins this round! 
+Current Score: [ Player1- 1] [ Player2- 0]
+
+ ---- Round 2 of 26 ---- 
+Player1 plays: Queen of Spades
+Player2 plays: Seven of Clubs
+
+Player1 Wins this round! 
+Current Score: [ Player1- 2] [ Player2- 0]
+...
+ ---- Round 26 of 26 ---- 
+Player1 plays: Six of Clubs
+Player2 plays: Two of Diamonds
+
+Player1 Wins this round! 
+Current Score: [ Player1- 13] [ Player2- 12]
+----------------------------------------------------
+Final Score of Player1: 13
+Final Score of Player2: 12
+----------------------------------------------------
+    **GAME RESULTS**    
+Player1 Wins! Congratulations!
