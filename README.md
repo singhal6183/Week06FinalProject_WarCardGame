@@ -41,18 +41,5 @@ d)	Compare the value of each card returned by the two player’s flip methods. C
 e)	After the loop, compare the final score from each player. 
 f)	Print the final score of each player and either “Player 1”, “Player 2”, or “Draw” depending on which score is higher or if they are both the same.
 
-OUTPUT OF CODE:
----- Round 1 of 26 ---- 
-Player1 plays: Two of Hearts & Player2 plays: Ten of Hearts | Player2 Wins this round!  Current Score: [ Player1- 0] [ Player2- 1]
- ---- Round 2 of 26 ---- 
-Player1 plays: King of Hearts & Player2 plays: Jack of Diamonds | Player1 Wins this round! Current Score: [ Player1- 1] [ Player2- 1]
----- Round 26 of 26 ---- 
-Player1 plays: Queen of Hearts & Player2 plays: Nine of Clubs | Player1 Wins this round! Current Score: [ Player1- 14] [ Player2- 10]
-----------------------------------------------------
-Final Score of Player1: 14
-Final Score of Player2: 10
-----------------------------------------------------
-    **GAME RESULTS**    
-Player1 Wins! Congratulations!
-
+******Ouput Sample file Attached
 
